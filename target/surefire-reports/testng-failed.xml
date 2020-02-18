@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="FinanceVal.SearchBoxTest">
+        <methods>
+          <include name="verifySearchBoxResults" invocation-numbers="4"/>
+          <include name="terminate"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- FinanceVal.SearchBoxTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

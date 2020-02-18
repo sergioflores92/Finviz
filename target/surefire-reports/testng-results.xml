@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11646" started-at="2020-02-18T01:12:50Z" finished-at="2020-02-18T01:13:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11646" started-at="2020-02-18T01:12:50Z" finished-at="2020-02-18T01:13:01Z">
+      <class name="FinanceVal.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:FinanceVal.LoginTest@7bc1a03d]" name="init" is-config="true" duration-ms="3043" started-at="2020-02-17T18:12:50Z" finished-at="2020-02-17T18:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:FinanceVal.LoginTest@7bc1a03d]" name="testLogin" duration-ms="5508" started-at="2020-02-17T18:12:53Z" data-provider="getUsers" finished-at="2020-02-17T18:12:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Matameromas]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:FinanceVal.LoginTest@7bc1a03d]" name="testLogin" duration-ms="3001" started-at="2020-02-17T18:12:58Z" data-provider="getUsers" finished-at="2020-02-17T18:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MiniLicwxyz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[997068]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FinanceVal.LoginTest@7bc1a03d]" name="tearDown" is-config="true" duration-ms="79" started-at="2020-02-17T18:13:01Z" finished-at="2020-02-17T18:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FinanceVal.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
